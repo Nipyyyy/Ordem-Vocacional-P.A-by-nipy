@@ -53,11 +53,34 @@ const TokensAndMaps: React.FC = () => {
       ]
     },
     {
-      id: 'tecnologia',
+      id: 'informatica',
       name: 'Tecnologia da Informação',
       description: 'Tokens relacionados à área de TI e desenvolvimento',
       tokens: [
-        // Tokens serão adicionados quando você fornecer as imagens
+        {
+          id: 'dev-1',
+          name: 'Desenvolvedor Frontend',
+          description: 'Desenvolvedor trabalhando com interfaces web',
+          imagePath: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'dev-2',
+          name: 'Analista de Sistemas',
+          description: 'Profissional analisando arquitetura de sistemas',
+          imagePath: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'dev-3',
+          name: 'Administrador de Redes',
+          description: 'Especialista em infraestrutura e redes',
+          imagePath: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'dev-4',
+          name: 'Cientista de Dados',
+          description: 'Profissional analisando dados e estatísticas',
+          imagePath: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
       ]
     },
     {
@@ -65,7 +88,30 @@ const TokensAndMaps: React.FC = () => {
       name: 'Educação',
       description: 'Tokens relacionados ao ensino e pedagogia',
       tokens: [
-        // Tokens serão adicionados quando você fornecer as imagens
+        {
+          id: 'prof-1',
+          name: 'Professor de Ensino Fundamental',
+          description: 'Professor ensinando crianças em sala de aula',
+          imagePath: 'https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'prof-2',
+          name: 'Professor Universitário',
+          description: 'Professor dando aula em universidade',
+          imagePath: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'prof-3',
+          name: 'Coordenador Pedagógico',
+          description: 'Profissional coordenando atividades educacionais',
+          imagePath: 'https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'prof-4',
+          name: 'Professor de Idiomas',
+          description: 'Professor ensinando línguas estrangeiras',
+          imagePath: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
       ]
     },
     {
@@ -73,15 +119,61 @@ const TokensAndMaps: React.FC = () => {
       name: 'Direito',
       description: 'Tokens relacionados à área jurídica',
       tokens: [
-        // Tokens serão adicionados quando você fornecer as imagens
+        {
+          id: 'adv-1',
+          name: 'Advogado Criminalista',
+          description: 'Advogado especializado em direito criminal',
+          imagePath: 'https://images.pexels.com/photos/3771097/pexels-photo-3771097.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adv-2',
+          name: 'Juiz',
+          description: 'Magistrado presidindo audiência',
+          imagePath: 'https://images.pexels.com/photos/5668772/pexels-photo-5668772.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adv-3',
+          name: 'Promotor',
+          description: 'Promotor de justiça em tribunal',
+          imagePath: 'https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adv-4',
+          name: 'Advogado Empresarial',
+          description: 'Advogado especializado em direito empresarial',
+          imagePath: 'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
       ]
     },
     {
       id: 'artes',
-      name: 'Artes e Design',
+      name: 'Artes Visuais e Design',
       description: 'Tokens relacionados à criação artística e design',
       tokens: [
-        // Tokens serão adicionados quando você fornecer as imagens
+        {
+          id: 'art-1',
+          name: 'Designer Gráfico',
+          description: 'Designer criando identidade visual',
+          imagePath: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'art-2',
+          name: 'Ilustrador',
+          description: 'Artista criando ilustrações digitais',
+          imagePath: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'art-3',
+          name: 'Designer UX/UI',
+          description: 'Designer criando interfaces de usuário',
+          imagePath: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'art-4',
+          name: 'Diretor de Arte',
+          description: 'Profissional dirigindo projetos visuais',
+          imagePath: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
       ]
     },
     {
@@ -89,7 +181,185 @@ const TokensAndMaps: React.FC = () => {
       name: 'Administração',
       description: 'Tokens relacionados à gestão e negócios',
       tokens: [
-        // Tokens serão adicionados quando você fornecer as imagens
+        {
+          id: 'adm-1',
+          name: 'Gestor de Projetos',
+          description: 'Profissional gerenciando equipes e projetos',
+          imagePath: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adm-2',
+          name: 'Analista Financeiro',
+          description: 'Profissional analisando dados financeiros',
+          imagePath: 'https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adm-3',
+          name: 'Gestor de RH',
+          description: 'Profissional de recursos humanos',
+          imagePath: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'adm-4',
+          name: 'Empreendedor',
+          description: 'Empresário desenvolvendo novos negócios',
+          imagePath: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    {
+      id: 'jornalismo',
+      name: 'Jornalismo',
+      description: 'Tokens relacionados à comunicação e mídia',
+      tokens: [
+        {
+          id: 'jorn-1',
+          name: 'Repórter de Campo',
+          description: 'Jornalista fazendo cobertura externa',
+          imagePath: 'https://images.pexels.com/photos/3944377/pexels-photo-3944377.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'jorn-2',
+          name: 'Apresentador de TV',
+          description: 'Jornalista apresentando telejornal',
+          imagePath: 'https://images.pexels.com/photos/3944378/pexels-photo-3944378.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'jorn-3',
+          name: 'Editor de Conteúdo',
+          description: 'Profissional editando matérias jornalísticas',
+          imagePath: 'https://images.pexels.com/photos/3944379/pexels-photo-3944379.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'jorn-4',
+          name: 'Fotojornalista',
+          description: 'Jornalista especializado em fotografia',
+          imagePath: 'https://images.pexels.com/photos/3944380/pexels-photo-3944380.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    {
+      id: 'publicidade',
+      name: 'Publicidade e Propaganda',
+      description: 'Tokens relacionados à comunicação publicitária',
+      tokens: [
+        {
+          id: 'pub-1',
+          name: 'Redator Publicitário',
+          description: 'Profissional criando textos publicitários',
+          imagePath: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'pub-2',
+          name: 'Diretor Criativo',
+          description: 'Profissional dirigindo campanhas publicitárias',
+          imagePath: 'https://images.pexels.com/photos/7688337/pexels-photo-7688337.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'pub-3',
+          name: 'Social Media Manager',
+          description: 'Especialista em redes sociais',
+          imagePath: 'https://images.pexels.com/photos/7688338/pexels-photo-7688338.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'pub-4',
+          name: 'Planejador de Mídia',
+          description: 'Profissional planejando veiculação de campanhas',
+          imagePath: 'https://images.pexels.com/photos/7688339/pexels-photo-7688339.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    {
+      id: 'cinema',
+      name: 'Cinema e Audiovisual',
+      description: 'Tokens relacionados à produção audiovisual',
+      tokens: [
+        {
+          id: 'cin-1',
+          name: 'Diretor de Cinema',
+          description: 'Diretor comandando filmagem',
+          imagePath: 'https://images.pexels.com/photos/2773498/pexels-photo-2773498.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'cin-2',
+          name: 'Cinegrafista',
+          description: 'Profissional operando câmera de cinema',
+          imagePath: 'https://images.pexels.com/photos/2773499/pexels-photo-2773499.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'cin-3',
+          name: 'Editor de Vídeo',
+          description: 'Profissional editando material audiovisual',
+          imagePath: 'https://images.pexels.com/photos/2773500/pexels-photo-2773500.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'cin-4',
+          name: 'Produtor Audiovisual',
+          description: 'Profissional produzindo conteúdo audiovisual',
+          imagePath: 'https://images.pexels.com/photos/2773501/pexels-photo-2773501.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    {
+      id: 'zoologia',
+      name: 'Zoologia',
+      description: 'Tokens relacionados ao estudo e cuidado animal',
+      tokens: [
+        {
+          id: 'zoo-1',
+          name: 'Zoólogo de Campo',
+          description: 'Pesquisador estudando animais na natureza',
+          imagePath: 'https://images.pexels.com/photos/2317904/pexels-photo-2317904.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'zoo-2',
+          name: 'Biólogo Marinho',
+          description: 'Especialista em vida aquática',
+          imagePath: 'https://images.pexels.com/photos/2317905/pexels-photo-2317905.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'zoo-3',
+          name: 'Conservacionista',
+          description: 'Profissional trabalhando na preservação animal',
+          imagePath: 'https://images.pexels.com/photos/2317906/pexels-photo-2317906.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'zoo-4',
+          name: 'Veterinário de Zoo',
+          description: 'Veterinário cuidando de animais selvagens',
+          imagePath: 'https://images.pexels.com/photos/2317907/pexels-photo-2317907.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
+      ]
+    },
+    {
+      id: 'assistente',
+      name: 'Assistência Social',
+      description: 'Tokens relacionados ao trabalho social',
+      tokens: [
+        {
+          id: 'ass-1',
+          name: 'Assistente Social',
+          description: 'Profissional atendendo famílias em vulnerabilidade',
+          imagePath: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'ass-2',
+          name: 'Conselheiro Tutelar',
+          description: 'Profissional protegendo direitos de crianças',
+          imagePath: 'https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'ass-3',
+          name: 'Educador Social',
+          description: 'Profissional trabalhando com educação social',
+          imagePath: 'https://images.pexels.com/photos/6646920/pexels-photo-6646920.jpeg?auto=compress&cs=tinysrgb&w=400'
+        },
+        {
+          id: 'ass-4',
+          name: 'Gestor de ONG',
+          description: 'Profissional gerenciando organização social',
+          imagePath: 'https://images.pexels.com/photos/6646921/pexels-photo-6646921.jpeg?auto=compress&cs=tinysrgb&w=400'
+        }
       ]
     }
   ];
@@ -172,51 +442,40 @@ const TokensAndMaps: React.FC = () => {
                         transition={{ duration: 0.3 }}
                         className="mt-6 border-t border-light-purple/20 pt-6"
                       >
-                        {category.tokens.length > 0 ? (
-                          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                            {category.tokens.map((token) => (
-                              <motion.div
-                                key={token.id}
-                                className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20 hover:border-accent-gold/50 transition-all duration-300 cursor-pointer group"
-                                whileHover={{ scale: 1.02 }}
-                                onClick={() => openTokenModal(token)}
-                              >
-                                <div className="aspect-square rounded-lg overflow-hidden mb-4 bg-dark-blue/50">
-                                  <img 
-                                    src={token.imagePath} 
-                                    alt={token.name}
-                                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-                                  />
-                                </div>
-                                <h4 className="text-lg font-cinzel font-semibold text-accent-gold mb-2">
-                                  {token.name}
-                                </h4>
-                                <p className="text-gray-300 text-sm mb-4">
-                                  {token.description}
-                                </p>
-                                <div className="flex space-x-2">
-                                  <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                    <Eye size={14} className="mr-1" />
-                                    Ver
-                                  </button>
-                                  <button className="flex-1 bg-dark-blue/50 hover:bg-dark-blue text-white text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
-                                    <Download size={14} className="mr-1" />
-                                    Baixar
-                                  </button>
-                                </div>
-                              </motion.div>
-                            ))}
-                          </div>
-                        ) : (
-                          <div className="text-center py-8">
-                            <p className="text-gray-400 mb-4">
-                              Tokens para esta categoria serão adicionados em breve.
-                            </p>
-                            <div className="w-16 h-16 mx-auto bg-dark-purple/50 rounded-lg flex items-center justify-center">
-                              <span className="text-2xl">👀</span>
-                            </div>
-                          </div>
-                        )}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                          {category.tokens.map((token) => (
+                            <motion.div
+                              key={token.id}
+                              className="bg-dark-purple/30 rounded-lg p-4 border border-light-purple/20 hover:border-accent-gold/50 transition-all duration-300 cursor-pointer group"
+                              whileHover={{ scale: 1.02 }}
+                              onClick={() => openTokenModal(token)}
+                            >
+                              <div className="aspect-square rounded-lg overflow-hidden mb-4 bg-dark-blue/50">
+                                <img 
+                                  src={token.imagePath} 
+                                  alt={token.name}
+                                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                                />
+                              </div>
+                              <h4 className="text-lg font-cinzel font-semibold text-accent-gold mb-2">
+                                {token.name}
+                              </h4>
+                              <p className="text-gray-300 text-sm mb-4">
+                                {token.description}
+                              </p>
+                              <div className="flex space-x-2">
+                                <button className="flex-1 bg-accent-gold/20 hover:bg-accent-gold/30 text-accent-gold text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
+                                  <Eye size={14} className="mr-1" />
+                                  Ver
+                                </button>
+                                <button className="flex-1 bg-dark-blue/50 hover:bg-dark-blue text-white text-xs py-2 px-3 rounded-md transition-colors flex items-center justify-center">
+                                  <Download size={14} className="mr-1" />
+                                  Baixar
+                                </button>
+                              </div>
+                            </motion.div>
+                          ))}
+                        </div>
                       </motion.div>
                     )}
                   </AnimatePresence>
