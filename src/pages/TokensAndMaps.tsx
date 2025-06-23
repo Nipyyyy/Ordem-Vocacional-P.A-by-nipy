@@ -90,26 +90,26 @@ const TokensAndMaps: React.FC = () => {
       tokens: [
         {
           id: 'prof-1',
-          name: 'Professor de Ensino Fundamental',
-          description: 'Professor ensinando crianças em sala de aula',
+          name: 'Professora de Matematica',
+          description: 'Professora do Senac tomando um café',
           imagePath: 'https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=400'
         },
         {
           id: 'prof-2',
-          name: 'Professor Universitário',
-          description: 'Professor dando aula em universidade',
+          name: 'Professor de Artes',
+          description: 'Professor dando aula pratica',
           imagePath: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=400'
         },
         {
           id: 'prof-3',
-          name: 'Coordenador Pedagógico',
-          description: 'Profissional coordenando atividades educacionais',
+          name: 'Professor 4',
+          description: 'Professor fazendo tal coisa',
           imagePath: 'https://images.pexels.com/photos/5212700/pexels-photo-5212700.jpeg?auto=compress&cs=tinysrgb&w=400'
         },
         {
           id: 'prof-4',
-          name: 'Professor de Idiomas',
-          description: 'Professor ensinando línguas estrangeiras',
+          name: 'Professor 5',
+          description: 'Professor fazendo tal coisa',
           imagePath: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=400'
         }
       ]
