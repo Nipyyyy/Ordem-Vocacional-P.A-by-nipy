@@ -1,3 +1,3 @@
-# Ordem-Vocacional-P.A-by-nipy
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Nipyyyy/Ordem-Vocacional-P.A-by-nipy)
+# Este é um projeto de ano letivo feito feito pelos alunos do Tecnico em Informatica T9
+# É um teste vocacional que esta ligado com umm rpg online que criamos.
+# By Pyetro/nipy
